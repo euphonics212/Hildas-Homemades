@@ -1,0 +1,228 @@
+
+body{
+	position: relative;
+	z-index: -50;
+}
+#logo > h2 {
+	font-family: 'Fredericka the Great', cursive!important;
+}
+#logo > a > h2 {
+	font-family: 'Fredericka the Great', cursive!important;
+}
+h1, h2, h3, h4, h5 {
+	font-family: 'Open Sans Condensed', sans-serif!important;
+	font-weight: 600;
+	letter-spacing: 2.5px;
+	text-align: center;
+}
+p, li, a{
+	font-family: 'Open Sans Condensed', sans-serif!important;
+	font-size: 1.1em;
+	color: #001318!important;
+}
+
+/*--header--*/
+#header-edge{
+	background-image: url(images/marmalade_background.jpg);
+	background-size: contain;
+}
+#logo {
+background-color: white;
+width: 75%;
+margin: auto;;
+}
+
+#logo {
+	text-align: center;
+}
+.navbar-default{
+	background-color: white;
+	text-align: center;
+	border: none;
+}
+@media only screen and (min-width: 500px){
+
+	#myNavbar > ul > li{
+		margin:auto;
+		width: 20%;
+	}
+	.contact  {
+	height: 400px;
+	}
+	.content-box > div > img {
+		height: 400px;
+	}
+	.content-box > div > p {
+		height: 400px;
+	}	
+}
+@media only screen and (max-width: 1100px){
+	#product-item > div > h3 {
+		
+	}
+}
+
+#myNavbar > ul {
+	background-color: white;
+	text-align: center;
+	width: 100%;
+	margin:auto;
+}
+.navbar{
+
+}
+/*about*/
+.content-box{
+	border: 1px solid lightgrey;
+}
+.content-box > div > p{
+	text-align: justify;
+}
+/*contact*/
+.contact  {
+	border: 1px solid lightgrey;
+	color: white;
+	background-color: #001318;
+	font-family: 'Open Sans Condensed', sans-serif!important;
+}
+.contact > h3  {
+	font-family: 'Open Sans Condensed', sans-serif!important;
+}
+/*Products*/
+.product-list-container {
+	background-color: #EAE4F5;
+	border: solid 2.5px white;
+}
+.product-box{
+	color: white;
+	text-shadow: 0px 0px 2px black;
+	margin-bottom: 15px;
+	background-color: #B4C25B;
+	border: solid 3px white;
+	-webkit-transition: .2s;
+	transition: .2s;
+	transition-timing-function: ease-in-out;
+}
+.product-box:hover{
+	color: grey;
+	text-shadow: 0px 0px 2px white;
+	cursor: pointer;
+}
+
+.product-image {
+	margin: 6px 0px 5px 0px;
+	background-color: white;
+	-webkit-transition: .2s;
+	transition: .2s;
+	transition-timing-function: ease-in-out;
+}
+.product-heading{
+	background-color: white;
+	margin: 6px 0px 5px 0px;
+	height: 90px;
+	-webkit-transition: .2s;
+	transition: .2s;
+	transition-timing-function: ease-in-out;
+}
+.product-heading > h5{
+	margin: 5px;
+}
+.items-container{
+	border: solid 1px grey;
+	height: 105px;
+	background-image: url(images/wall.jpg);
+	background-size: cover;
+	margin-bottom: 10px;
+	-webkit-transition: .2s;
+	transition: .2s;
+	transition-timing-function: ease-in-out;
+}
+.items-container:hover{
+	cursor: pointer;
+	filter: saturate(1.5);
+	box-shadow: 0px 0px 2px black;
+}
+.product-heading:hover {
+	color: black;
+	background-color: #E8CDED;
+	text-shadow: 1px 0px 0px white;
+	text-decoration: underline; 
+}
+.refine-item{
+	background-color:#E1F1B5;
+	border: solid 2.5px white;
+}
+.refine-item-img {
+	width: 100%;
+	border: solid 1px darkgrey;
+}
+.refine-item > div > p{
+	text-align: center;
+}
+
+@media only screen and (max-width: 400px){
+	#other{
+		display: none;
+	}
+	.product-heading > h5{
+	margin: 5px;
+	font-size: .9em!important;
+	}
+	.product-box {
+		font-size: .9em!important;
+	}	
+}
+
+@media only screen and (max-width: 769px){	
+	.product-box > h3 {
+		font-size: 1em!important;
+	}	
+}
+.news-box{
+	text-align: center!important;
+	height: 200px;
+	background-image: url('images/jellies_background');
+	background-size: cover;
+}
+.news-box > p{
+	text-align: center!important;
+	height: 300px;
+	padding: 25px;
+}
+
+.section_layout{
+	background-image: url(images/spiced_apple_chutney_dark.jpg);
+	background-size: contain;
+	height: 300px;
+	background-repeat: no-repeat;
+}
+.product_image_home{
+	background-size: contain;
+	height: 300px;
+	background-repeat: no-repeat;
+}
+footer{
+	font-size: .8em;
+	text-align: center;
+	margin-top: 30px;
+}
+ footer > div > ul > li {
+ 	list-style: none;
+ }
+a:link {
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
